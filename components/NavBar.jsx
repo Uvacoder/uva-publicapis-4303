@@ -18,9 +18,9 @@ import Link from "next/link";
 export default function NavBar() {
   const publicApisRepo = "https://github.com/public-apis/public-apis";
   const publicApisApiRepo = "https://github.com/davemachado/public-api";
-  const publicApisSiteRepo = "https://github.com/krishna8421/public-apis-site";
-  const twitterUrl = "https://twitter.com/krishnaa8421";
-  const linkedinUrl = "https://linkedin.com/in/krishnaa8421";
+  const publicApisSiteRepo = "https://github.com/uvacoder/public-apis-site";
+  const twitterUrl = "https://twitter.com/AlecCam43544378";
+  const linkedinUrl = "https://linkedin.com/in/alecbcampbell";
   return (
     <Box mt={2}>
       <Box borderBottomWidth="3px" borderColor="purple.600">
@@ -49,11 +49,11 @@ export default function NavBar() {
                   <Icon as={RiLinkedinLine} />
                 </Button>
               </a>
-              {/* <a href={twitterUrl}>
+              <a href={twitterUrl}>
                 <Button variant="ghost">
                   <Icon as={FiTwitter} />
                 </Button>
-              </a> */}
+              </a>
               <Menu>
                 <MenuButton as={Button} variant="ghost">
                   <Icon as={FiGithub} />
